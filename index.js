@@ -41,7 +41,7 @@ form.addEventListener('submit', (event) => {
     const isValidEmail = validateEmail(emailInput.value);
 
     if (!isValidName || !isValidEmail) {
-        // Display error message
+       
         feedback.innerText = 'Please provide a valid full name and email address.';
         feedback.style.color = 'red';
         feedback.style.display = 'block'; 
