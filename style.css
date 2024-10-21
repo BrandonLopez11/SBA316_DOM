@@ -173,3 +173,15 @@ form {
         justify-content: space-between;
     }
 }
+
+
+.logo-container {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+}
